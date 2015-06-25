@@ -21,9 +21,19 @@ class CodeceptionGoal extends \hidev\goals\DefaultGoal
         $this->setDeps('codeception.yml');
     }
 
-    public function save()
+    public function actionMake()
     {
-        $this->actionFix();
+        $this->actionRun();
+    }
+
+    public function actionRun()
+    {
+        passthru('codeception run');
+    }
+
+    public function actionBuild()
+    {
+        passthru('codeception build');
     }
 
     public function actionBootstrap()

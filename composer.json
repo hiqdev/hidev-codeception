@@ -1,0 +1,53 @@
+{
+    "name": "hiqdev/hidev-codeception",
+    "type": "yii2-extension",
+    "description": "Codeception plugin for HiDev",
+    "keywords": [
+        "codeception",
+        "hidev",
+        "plugin"
+    ],
+    "homepage": "https://github.com/hiqdev/hidev-codeception",
+    "license": "BSD-3-Clause",
+    "support": {
+        "email": "support@hiqdev.com",
+        "source": "https://github.com/hiqdev/hidev-codeception",
+        "issues": "https://github.com/hiqdev/hidev-codeception/issues",
+        "wiki": "https://github.com/hiqdev/hidev-codeception/wiki",
+        "forum": "https://forum.hiqdev.com/"
+    },
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "role": "Project lead",
+            "email": "sol@hiqdev.com",
+            "homepage": "https://hipanel.com/"
+        },
+        {
+            "name": "Dmitry Naumenko",
+            "role": "Lead backend developer",
+            "email": "silverfire@hiqdev.com",
+            "homepage": "http://silverfire.me/"
+        },
+        {
+            "name": "Andrey Klochok",
+            "role": "Lead frontend developer",
+            "email": "tafid@hiqdev.com",
+            "homepage": "https://hiqdev.com/"
+        },
+        {
+            "name": "Yuriy Myronchuk",
+            "role": "QA Lead",
+            "email": "bladeroot@hiqdev.com",
+            "homepage": "https://hiqdev.com/"
+        }
+    ],
+    "require": {
+        "hiqdev/hidev": "*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "hidev\\codeception\\": ""
+        }
+    }
+}

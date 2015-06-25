@@ -1,0 +1,16 @@
+parent:
+    github:         hiqdev/hidev-config
+
+package:
+    name:           hidev-codeception
+    namespace:      hidev\codeception
+    label:          HiDev Codeception
+    title:          Codeception plugin for HiDev
+    type:           yii2-extension
+    keywords:       codeception, hidev, plugin
+    year:           2015
+
+composer.json:
+    require:
+        hiqdev/hidev:       '*@dev'
+

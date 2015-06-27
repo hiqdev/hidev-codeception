@@ -16,7 +16,7 @@ namespace hidev\codeception\goals;
  */
 class CodeceptionGoal extends \hidev\goals\DefaultGoal
 {
-    public $isBuilt = false;
+    public $isBuilt        = false;
     public $isBootstrapped = false;
 
     public function init()

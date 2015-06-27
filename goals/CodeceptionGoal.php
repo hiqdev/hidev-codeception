@@ -16,28 +16,60 @@ namespace hidev\codeception\goals;
  */
 class CodeceptionGoal extends \hidev\goals\DefaultGoal
 {
+    public $isBuilt = false;
+    public $isBootstrapped = false;
+
     public function init()
     {
-        $this->setDeps('codeception.yml');
+        parent::init();
+        $this->actionLoad();
     }
 
     public function actionMake()
     {
+        $this->actionConfig();
+        $this->actionBuild();
         $this->actionRun();
+    }
+
+    public function actionLoad()
+    {
+        $this->isBootstrapped = $this->config->get('codeception.yml')->exists();
+    }
+
+    public function actionConfig()
+    {
+        $this->module->runAction('codeception.yml');
     }
 
     public function actionRun()
     {
-        passthru('codeception run');
+        passthru('codecept run');
+    }
+
+    public function build()
+    {
+        passthru('codecept build');
     }
 
     public function actionBuild()
     {
-        passthru('codeception build');
+        if (!$this->isBuilt) {
+            $this->isBuilt = true;
+            $this->build();
+        }
     }
 
-    public function actionBootstrap()
+    public function bootstrap()
     {
-        passthru('codeception bootstrap');
+        passthru('codecept bootstrap');
+    }
+
+    public function actionBootstrap($force = false)
+    {
+        if (!$this->isBootstrapped || $force) {
+            $this->isBootstrapped = true;
+            $this->bootstrap();
+        }
     }
 }

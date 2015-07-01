@@ -19,14 +19,9 @@ class CodeceptionGoal extends \hidev\goals\DefaultGoal
     public $isBuilt        = false;
     public $isBootstrapped = false;
 
-    public function init()
-    {
-        parent::init();
-        $this->actionLoad();
-    }
-
     public function actionMake()
     {
+        $this->actionLoad();
         $this->actionConfig();
         $this->actionBuild();
         $this->actionRun();

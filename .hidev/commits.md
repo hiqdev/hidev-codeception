@@ -6,9 +6,10 @@ hiqdev/hidev-codeception commits history
 - adding .gitignore items
 - preparing blank unit test for all classes
 - preparing tests/_bootstrap.php
-- Added tests germs
+- Added testing germs
     - 6bf0019 2015-07-02 + construct test for Plugin.php (sol@hiqdev.com)
-- Changed configs: redoing parent to plugins
+- Changed configs: redone parent to plugins
+    - f52ca39 2015-07-11 simplified .hidev/config require to hidev-config-php only (sol@hiqdev.com)
     - 4ed78a8 2015-07-11 moved back to .hidev (sol@hiqdev.com)
     - 704c497 2015-07-10 - require & require-dev (sol@hiqdev.com)
     - 57d95c0 2015-07-09 moved to src (sol@hiqdev.com)

@@ -8,7 +8,8 @@ hiqdev/hidev-codeception changelog
 - preparing tests/_bootstrap.php
 - Added testing germs
 - Changed configs: redone parent to plugins
-- bootstrap and codeception.yml generation
+- Added bootstrap and codeception.yml generation
+- Inited
 
 ## Development started June 25, 2015
 

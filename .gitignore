@@ -1,14 +1,9 @@
-# hidev composer.json
-.hidev/composer.json
-
 # runtime dir
+runtime
 /runtime
 
-# vendor dir
-vendor
-
-# composer lock file
-composer.lock
+# hidev composer.json
+.hidev/composer.json
 
 # IDE & OS files
 .*.swp
@@ -20,4 +15,8 @@ nbproject
 Thumbs.db
 .DS_Store
 
-# Added by HiDev
+# vendor dir
+vendor
+
+# composer lock file
+composer.lock

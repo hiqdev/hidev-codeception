@@ -1,11 +1,18 @@
 hiqdev/hidev-codeception commits history
 ----------------------------------------
 
-## 0.0.1 Under development
+## 0.0.3 Under development
 
 - adding .gitignore items
 - preparing blank unit test for all classes
 - preparing tests/_bootstrap.php
+
+## 0.0.2 2015-07-11
+
+- Fixed requires at .hidev/config.yml
+
+## 0.0.1 2015-07-11
+
 - Added testing germs
     - 6bf0019 2015-07-02 + construct test for Plugin.php (sol@hiqdev.com)
 - Changed configs: redone parent to plugins

@@ -7,9 +7,10 @@ hiqdev/hidev-codeception commits history
 - preparing blank unit test for all classes
 - preparing tests/_bootstrap.php
 
-## 0.0.2 2015-07-11
+## 0.0.2 2015-09-08
 
 - Fixed requires at .hidev/config.yml
+    - def5b64 2015-09-08 fixed requires at .hidev/config.yml (sol@hiqdev.com)
 
 ## 0.0.1 2015-07-11
 

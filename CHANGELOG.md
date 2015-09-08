@@ -7,7 +7,7 @@ hiqdev/hidev-codeception changelog
 - preparing blank unit test for all classes
 - preparing tests/_bootstrap.php
 
-## 0.0.2 2015-07-11
+## 0.0.2 2015-09-08
 
 - Fixed requires at .hidev/config.yml
 

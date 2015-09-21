@@ -3,9 +3,11 @@ hiqdev/hidev-codeception commits history
 
 ## 0.0.3 Under development
 
-- adding .gitignore items
-- preparing blank unit test for all classes
-- preparing tests/_bootstrap.php
+- Added generation of blank unit test for all classes
+- Added .gitignore items for Codeception generated files
+    - 2b33c47 2015-09-21 + vcsignore for Codeception generated files (sol@hiqdev.com)
+- Added template for tests/_bootstrap.php
+    - 5209dfa 2015-09-21 + tests/_bootstrap template (sol@hiqdev.com)
 
 ## 0.0.2 2015-09-08
 

@@ -16,6 +16,10 @@ namespace hidev\codeception\goals;
  */
 class CodeceptionGoal extends \hidev\goals\DefaultGoal
 {
+    public $vcsignore = [
+        'tests/_support/_generated' => 'Codeception generated files',
+    ];
+
     public $isBuilt        = false;
     public $isBootstrapped = false;
 

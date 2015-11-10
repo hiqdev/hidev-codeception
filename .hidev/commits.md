@@ -3,6 +3,8 @@ hiqdev/hidev-codeception commits history
 
 ## 0.0.3 Under development
 
+- Fixed package description
+    - 21b2c8a 2015-11-10 php-cs-fixed (sol@hiqdev.com)
     - 057904f 2015-11-10 improved description (sol@hiqdev.com)
 - Added generation of blank unit test for all classes
 - Added .gitignore items for Codeception generated files
@@ -31,7 +33,7 @@ hiqdev/hidev-codeception commits history
     - f4bf42d 2015-07-02 * loading moved from init to actionMake (sol@hiqdev.com)
     - 85472ba 2015-06-28 works: bootstrap and codeception.yml generation (sol@hiqdev.com)
     - 7308152 2015-06-26 + CodeceptionYmlGoal (sol@hiqdev.com)
-- Inited
+- Added basics
     - c44fa8b 2015-06-25 inited (sol@hiqdev.com)
 
 ## Development started June 25, 2015

@@ -3,6 +3,7 @@ hiqdev/hidev-codeception commits history
 
 ## 0.0.3 Under development
 
+    - 057904f 2015-11-10 improved description (sol@hiqdev.com)
 - Added generation of blank unit test for all classes
 - Added .gitignore items for Codeception generated files
     - 2b33c47 2015-09-21 + vcsignore for Codeception generated files (sol@hiqdev.com)

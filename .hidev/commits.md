@@ -1,7 +1,10 @@
 hiqdev/hidev-codeception commits history
 ----------------------------------------
 
-## 0.0.3 Under development
+## Under development
+
+
+## 0.1.0 2015-11-10
 
 - Fixed package description
     - 21b2c8a 2015-11-10 php-cs-fixed (sol@hiqdev.com)

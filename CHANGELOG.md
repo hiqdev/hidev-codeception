@@ -1,7 +1,10 @@
 hiqdev/hidev-codeception changelog
 ----------------------------------
 
-## 0.0.3 Under development
+## Under development
+
+
+## 0.1.0 2015-11-10
 
 - Fixed package description
 - Added generation of blank unit test for all classes

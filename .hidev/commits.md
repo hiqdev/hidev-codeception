@@ -3,15 +3,16 @@ hiqdev/hidev-codeception commits history
 
 ## Under development
 
+- Added generation of blank unit test for all classes
 
 ## 0.1.0 2015-11-10
 
+- Added vcsignoring of Codeception generated files
+    - 7e47750 2015-11-10 moved vcsignore to Plugin (sol@hiqdev.com)
+    - 2b33c47 2015-09-21 + vcsignore for Codeception generated files (sol@hiqdev.com)
 - Fixed package description
     - 21b2c8a 2015-11-10 php-cs-fixed (sol@hiqdev.com)
     - 057904f 2015-11-10 improved description (sol@hiqdev.com)
-- Added generation of blank unit test for all classes
-- Added .gitignore items for Codeception generated files
-    - 2b33c47 2015-09-21 + vcsignore for Codeception generated files (sol@hiqdev.com)
 - Added template for tests/_bootstrap.php
     - 5209dfa 2015-09-21 + tests/_bootstrap template (sol@hiqdev.com)
 

@@ -1,10 +1,13 @@
-Codeception plugin for HiDev
-----------------------------
+HiDev Codeception
+=================
 
-Codeception plugin for HiDev
+**Codeception plugin for HiDev**
 
-[![Latest Stable Version](https://poser.pugx.org/hiqdev/hidev-codeception/v/stable.png)](https://packagist.org/packages/hiqdev/hidev-codeception)
-[![Total Downloads](https://poser.pugx.org/hiqdev/hidev-codeception/downloads.png)](https://packagist.org/packages/hiqdev/hidev-codeception)
+[![Latest Stable Version](https://poser.pugx.org/hiqdev/hidev-codeception/v/stable)](//packagist.org/packages/hiqdev/hidev-codeception)
+[![Total Downloads](https://poser.pugx.org/hiqdev/hidev-codeception/downloads)](//packagist.org/packages/hiqdev/hidev-codeception)
+
+[HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
+This plugin enables [Codeception](http://codeception.com) support for HiDev.
 
 ## Installation
 
@@ -24,8 +27,9 @@ or add
 
 to the require section of your composer.json.
 
-## Licence
+## License
 
-[BSD-3-Clause](http://choosealicense.com/licenses/bsd-3-clause)
+This project is released under the terms of the BSD-3-Clause [license](https://github.com/hiqdev/hidev-codeception/blob/master/LICENSE).
+Read more [here](http://choosealicense.com/licenses/bsd-3-clause).
 
-Copyright © 2015, HiQDev (https://hiqdev.com/)
+Copyright © 2015, HiQDev (http://hiqdev.com/)

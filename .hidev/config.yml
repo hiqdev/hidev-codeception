@@ -1,11 +1,14 @@
 package:
     name:           hidev-codeception
     namespace:      hidev\codeception
-    label:          HiDev Codeception
+    headline:       HiDev Codeception
     title:          Codeception plugin for HiDev
     type:           yii2-extension
     keywords:       codeception, hidev, plugin
     year:           2015
+    description:    |
+        [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
+        This plugin enables [Codeception](http://codeception.com) support for HiDev.
 
 require:
     hiqdev/hidev-config:        "*"

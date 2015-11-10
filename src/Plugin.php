@@ -21,5 +21,8 @@ class Plugin extends \hiqdev\pluginmanager\Plugin
         'views' => [
             '@hidev/codeception/views',
         ],
+        'vcsignore' => [
+            'tests/_support/_generated' => 'Codeception generated files',
+        ],
     ];
 }

@@ -10,6 +10,12 @@ package:
         [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
         This plugin enables [Codeception](http://codeception.com) support for HiDev.
 
+        Provides usual Codeception operations:
+        - bootstrapping
+        - generating codeception.yml
+        - generating basic unit tests (in progress)
+        - running tests
+
 require:
-    hiqdev/hidev-config:        "*"
-    hiqdev/hidev-config-php:    "*"
+    hiqdev/hidev-hiqdev: "*"
+    hiqdev/hidev-php:    "*"

@@ -18,7 +18,7 @@ class Plugin extends \hiqdev\pluginmanager\Plugin
             'codeception'     => 'hidev\codeception\goals\CodeceptionGoal',
             'codeception.yml' => 'hidev\codeception\goals\CodeceptionYmlGoal',
             'install'         => [
-                'requires' => [
+                'require' => [
                     'codeception/codeception' => '*',
                 ],
             ],

@@ -17,5 +17,7 @@ package:
         - running tests
 
 require:
-    hiqdev/hidev-hiqdev: "*"
-    hiqdev/hidev-php:    "*"
+    hiqdev/hidev-php:           "*@dev"
+    hiqdev/hidev-hiqdev:        "*@dev"
+    hiqdev/hidev-travis-ci:     "*@dev"
+    hiqdev/hidev-php-cs-fixer:  "*@dev"

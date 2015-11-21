@@ -3,6 +3,7 @@ hiqdev/hidev-codeception changelog
 
 ## Under development
 
+- Added Travis CI integration
 - Added install require
 
 ## 0.1.0 2015-11-10

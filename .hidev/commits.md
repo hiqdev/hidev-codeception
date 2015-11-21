@@ -3,6 +3,8 @@ hiqdev/hidev-codeception commits history
 
 ## Under development
 
+- Added install requires
+    - 2139d2c 2015-11-21 + install requires (sol@hiqdev.com)
 - Added generation of blank unit test for all classes
 
 ## 0.1.0 2015-11-10

@@ -3,8 +3,9 @@ hiqdev/hidev-codeception changelog
 
 ## Under development
 
-- Added Travis CI integration
+- Added exit code propagation
 - Added install require
+- Added Travis CI integration
 
 ## 0.1.0 2015-11-10
 

@@ -3,11 +3,13 @@ hiqdev/hidev-codeception commits history
 
 ## Under development
 
-- Added Travis CI integration
-    - 64e6e32 2015-11-21 doing travis (sol@hiqdev.com)
+- Added exit code propagation
+    - 0dd3ba1 2015-11-23 redone to propagate exit code and used smart `passthru` (sol@hiqdev.com)
 - Added install require
     - 69d5007 2015-11-21 doing travis (sol@hiqdev.com)
     - 2139d2c 2015-11-21 + install requires (sol@hiqdev.com)
+- Added Travis CI integration
+    - 64e6e32 2015-11-21 doing travis (sol@hiqdev.com)
 
 ## 0.1.0 2015-11-10
 

@@ -21,6 +21,9 @@ class Plugin extends \hiqdev\pluginmanager\Plugin
                 'require' => [
                     'codeception/codeception' => '*',
                 ],
+                'bin' => [
+                    'codecept' => 'codeception/codeception',
+                ],
             ],
         ],
         'views' => [

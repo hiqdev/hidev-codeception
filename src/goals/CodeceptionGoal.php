@@ -21,10 +21,7 @@ class CodeceptionGoal extends \hidev\goals\DefaultGoal
 
     public function actionMake()
     {
-        $this->actionLoad();
-        $this->actionConfig();
-        $this->actionBuild();
-        $this->actionRun();
+        return $this->runActions('load, config, build, run');
     }
 
     public function actionLoad()
@@ -39,32 +36,32 @@ class CodeceptionGoal extends \hidev\goals\DefaultGoal
 
     public function actionRun()
     {
-        passthru('codecept run');
+        return $this->passthru('codecept', 'run');
     }
 
     public function build()
     {
-        passthru('codecept build');
+        return $this->passthru('codecept', 'build');
     }
 
     public function actionBuild()
     {
         if (!$this->isBuilt) {
             $this->isBuilt = true;
-            $this->build();
+            return $this->build();
         }
     }
 
     public function bootstrap()
     {
-        passthru('codecept bootstrap');
+        return $this->passthru('codecept', 'bootstrap');
     }
 
     public function actionBootstrap($force = false)
     {
         if (!$this->isBootstrapped || $force) {
             $this->isBootstrapped = true;
-            $this->bootstrap();
+            return $this->bootstrap();
         }
     }
 }

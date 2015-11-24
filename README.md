@@ -5,6 +5,7 @@ HiDev Codeception
 
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/hidev-codeception/v/stable)](//packagist.org/packages/hiqdev/hidev-codeception)
 [![Total Downloads](https://poser.pugx.org/hiqdev/hidev-codeception/downloads)](//packagist.org/packages/hiqdev/hidev-codeception)
+[![Build Status](https://img.shields.io/travis/hiqdev/hidev-codeception.svg)](http://travis-ci.org/hiqdev/hidev-codeception)
 
 [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
 This plugin enables [Codeception](http://codeception.com) support for HiDev.

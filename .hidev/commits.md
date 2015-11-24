@@ -3,6 +3,9 @@ hiqdev/hidev-codeception commits history
 
 ## Under development
 
+
+## 0.1.1 2015-11-24
+
 - Added tests and Travis CI
     - 78dde86 2015-11-24 added travis ci (sol@hiqdev.com)
     - 6fc325d 2015-11-24 php-cs-fixed (sol@hiqdev.com)

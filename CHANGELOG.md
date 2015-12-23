@@ -3,13 +3,13 @@ hiqdev/hidev-codeception changelog
 
 ## Under development
 
-- Added generation of blank unit test for all classes
+- Fixed minor issues
 
 ## 0.1.0 2015-11-10
 
 - Added vcsignoring of Codeception generated files
 - Fixed package description
-- Added template for tests/_bootstrap.php
+- Added template for `tests/_bootstrap.php`
 
 ## 0.0.2 2015-09-08
 

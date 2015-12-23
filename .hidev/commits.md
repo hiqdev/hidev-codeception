@@ -3,7 +3,11 @@ hiqdev/hidev-codeception commits history
 
 ## Under development
 
-- Fixed minor issues
+
+## 0.2.0 2015-12-23
+
+- Fixed build
+    - 1a1da09 2015-12-23 fixed build (sol@hiqdev.com)
     - 190930b 2015-12-23 merged (sol@hiqdev.com)
     - 49fd853 2015-12-23 changed hidev requires (sol@hiqdev.com)
 - Added tests and Travis CI

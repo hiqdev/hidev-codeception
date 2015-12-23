@@ -3,7 +3,10 @@ hiqdev/hidev-codeception changelog
 
 ## Under development
 
-- Fixed minor issues
+
+## 0.2.0 2015-12-23
+
+- Fixed build
 - Added tests and Travis CI
 - Added exit code propagation
 - Added install require

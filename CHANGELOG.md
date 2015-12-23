@@ -3,6 +3,7 @@ hiqdev/hidev-codeception changelog
 
 ## Under development
 
+- Fixed minor issues
 
 ## 0.1.1 2015-11-24
 
@@ -14,7 +15,7 @@ hiqdev/hidev-codeception changelog
 
 - Added vcsignoring of Codeception generated files
 - Fixed package description
-- Added template for tests/_bootstrap.php
+- Added template for `tests/_bootstrap.php`
 
 ## 0.0.2 2015-09-08
 

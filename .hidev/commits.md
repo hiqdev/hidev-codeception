@@ -3,6 +3,8 @@ hiqdev/hidev-codeception commits history
 
 ## Under development
 
+- Fixed minor issues
+    - 49fd853 2015-12-23 changed hidev requires (sol@hiqdev.com)
 
 ## 0.1.1 2015-11-24
 
@@ -24,8 +26,8 @@ hiqdev/hidev-codeception commits history
 - Fixed package description
     - 21b2c8a 2015-11-10 php-cs-fixed (sol@hiqdev.com)
     - 057904f 2015-11-10 improved description (sol@hiqdev.com)
-- Added template for tests/_bootstrap.php
-    - 5209dfa 2015-09-21 + tests/_bootstrap template (sol@hiqdev.com)
+- Added template for `tests/_bootstrap.php`
+    - 5209dfa 2015-09-21 + `tests/_bootstrap` template (sol@hiqdev.com)
 
 ## 0.0.2 2015-09-08
 

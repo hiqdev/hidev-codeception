@@ -11,5 +11,5 @@ package:
         This plugin enables [Codeception](http://codeception.com) support for HiDev.
 
 require:
-    hiqdev/hidev-config:        "*"
-    hiqdev/hidev-config-php:    "*"
+    hiqdev/hidev-php:    "*"
+    hiqdev/hidev-vendor: "*"

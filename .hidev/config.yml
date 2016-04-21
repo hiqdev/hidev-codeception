@@ -7,6 +7,7 @@ package:
     namespace:      hidev\codeception
     description:    |
         [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
+
         This plugin enables [Codeception](http://codeception.com) support for HiDev.
 
         Provides usual Codeception operations:
@@ -16,6 +17,3 @@ package:
         - generating basic unit tests (in progress)
         - running tests
 
-require:
-    hiqdev/hidev-php:    "*"
-    hiqdev/hidev-vendor: "*"

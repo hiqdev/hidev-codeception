@@ -11,10 +11,14 @@ matrix:
 cache:
     directories:
         - $HOME/.composer/cache
+before_install:
+    - 'composer self-update'
+    - 'composer --version'
+    - 'composer install --no-interaction'
+    - './vendor/bin/hidev --version'
+    - './vendor/bin/hidev travis/before_install'
 sudo: false
 install:
-    - 'travis_retry composer global require "fabpot/php-cs-fixer:*" "phpunit/phpunit-skeleton-generator:*" "phpunit/phpunit:^4.8"'
-    - 'travis_retry composer install --no-interaction'
     - './vendor/bin/hidev travis/install'
 script:
     - './vendor/bin/hidev travis/script'

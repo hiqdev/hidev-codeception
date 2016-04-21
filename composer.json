@@ -43,11 +43,19 @@
         }
     ],
     "require-dev": {
-        "hiqdev/hidev": "*@dev"
+        "hiqdev/hidev-php": "0.x",
+        "hiqdev/hidev-vendor": "0.x",
+        "hiqdev/hidev": "dev-master"
     },
     "autoload": {
         "psr-4": {
             "hidev\\codeception\\": "src"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.hiqdev.com"
+        }
+    ]
 }

@@ -14,7 +14,7 @@ namespace hidev\codeception\goals;
 /**
  * Goal for Codeception.
  */
-class CodeceptionGoal extends \hidev\goals\DefaultGoal
+class CodeceptionGoal extends \hidev\controllers\CommonController
 {
     public $isBuilt        = false;
     public $isBootstrapped = false;
@@ -31,7 +31,7 @@ class CodeceptionGoal extends \hidev\goals\DefaultGoal
 
     public function actionConfig()
     {
-        $this->module->runAction('codeception.yml');
+        $this->runRequest('codeception.yml');
     }
 
     public function actionRun()

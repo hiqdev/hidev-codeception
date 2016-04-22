@@ -14,13 +14,13 @@ namespace hidev\codeception\goals;
 /**
  * Goal for codeception.yml config file.
  */
-class CodeceptionYmlGoal extends \hidev\goals\TemplateGoal
+class CodeceptionYmlGoal extends \hidev\controllers\FileController
 {
     protected $_file = 'codeception.yml';
 
     public function actionLoad()
     {
-        $this->module->runAction('codeception/bootstrap');
+        $this->module->runRequest('codeception/bootstrap');
         parent::actionLoad();
     }
 }

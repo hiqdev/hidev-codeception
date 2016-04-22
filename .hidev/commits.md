@@ -3,6 +3,14 @@ hiqdev/hidev-codeception commits history
 
 ## Under development
 
+- Changed: redone for new hidev
+    - 87165a6 2016-04-22 phpcsfixed (sol@hiqdev.com)
+    - 56e9188 2016-04-22 + initial tests (sol@hiqdev.com)
+    - 5b9ab55 2016-04-22 redone to actual style: CommonController <- DefaultGoal and `hidev-config` <- Plugin (sol@hiqdev.com)
+    - d0b75c6 2016-04-21 rehideved (sol@hiqdev.com)
+    - 951ba87 2016-04-21 moved plugins requiring to composer.json (sol@hiqdev.com)
+    - 2d7b57b 2016-04-21 fixed build with asset-packagist (sol@hiqdev.com)
+    - f3c0e18 2016-04-19 rehideving (sol@hiqdev.com)
 
 ## 0.2.0 2015-12-23
 

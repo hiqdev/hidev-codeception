@@ -3,6 +3,7 @@ hiqdev/hidev-codeception changelog
 
 ## Under development
 
+- Changed: redone for new hidev
 
 ## 0.2.0 2015-12-23
 

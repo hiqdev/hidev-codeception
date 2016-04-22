@@ -1,5 +1,14 @@
 <?php
 
+/*
+ * Codeception plugin for HiDev
+ *
+ * @link      https://github.com/hiqdev/hidev-codeception
+ * @package   hidev-codeception
+ * @license   BSD-3-Clause
+ * @copyright Copyright (c) 2015-2016, HiQDev (http://hiqdev.com/)
+ */
+
 namespace hidev\codeception\tests\unit\goals;
 
 use hidev\codeception\goals\CodeceptionYmlGoal;
@@ -27,5 +36,4 @@ class CodeceptionYmlGoalTest extends \PHPUnit_Framework_TestCase
     {
         $this->assertInstanceOf(CodeceptionYmlGoal::class, $this->object);
     }
-
 }
